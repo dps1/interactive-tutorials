@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    char multidimensional_array[] = "One\0Two\0Three";
+    char *pointer = multidimensional_array;
+    printf("%c \n",*(pointer + 8 +2));
+    
+}
+
+
+ABOVE IS AN EXAMPLE OF CODE ON MULTIDIMENSIONAL ARRAY THAT HELPS YOU PRINT A SPECIFIC CHARACTER FROM THE 
+ARRAY WHEN YOU KNOW ITS POSITION.
